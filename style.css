@@ -1,0 +1,464 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ============== Header Section ============== */
+
+header {
+    padding-top: 130px;
+    background: url('./images/bg-header-desktop.png') center top no-repeat;
+}
+
+.header_logo {
+    padding-bottom: 50px;
+}
+
+.header_logo  img{
+    display: block;
+    margin: 0 auto;
+}
+
+.header_heading {
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 42px;
+    color: hsl(210, 10%, 33%);
+}
+
+header p {
+    text-align: center;
+    max-width: 650px;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.7;
+    color: hsl(201, 11%, 66%);
+    font-size: 22px;
+}
+
+.buttons {
+    margin-top: 40px;
+}
+
+/* ================== Main ==================  */
+
+/* Section_1 */
+
+.s_1_heading {
+    padding-top: 150px;
+}
+
+.sub_section {
+    padding-top: 60px;
+}
+
+.sub_section img {
+    display: block;
+    margin: 0 auto;
+    transform: translateX(-75px);
+}
+
+.textbox {
+    width: 360px;
+    margin-left: 150px;
+    margin-top: 68px;
+}
+
+.textbox h3 {
+    color:  hsl(210, 10%, 33%);
+    text-align: left;
+    margin-top: 50px;
+}
+
+.textbox p {
+    margin-top: 10px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+}
+
+/* Section_2 */
+
+.section_2 {
+    margin-top: 150px;
+}
+
+.s_2_img {
+    margin: 0 auto;
+    display: block;
+    padding-top: 100px;
+}
+
+/* Section_3 */
+
+.section_3 {
+    margin-top: 100px;
+}
+
+.sub_section_2 {
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.image_box {
+    padding: 0 3px;
+}
+.icon {
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    width: auto;
+}
+
+.ib_heading {
+    text-align: center;
+    color:  hsl(210, 10%, 33%);
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.ib_paragraph {
+    text-align: center;
+    padding-top: 20px;
+    line-height: 1.7;
+    font-size: 16px;
+    color: hsl(201, 11%, 66%);
+}
+
+.sub_section_3 {
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col > img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section_4 */
+
+.section_4 {
+    padding-top: 200px;
+}
+
+/* ================== Footer ================== */
+
+footer {
+    margin-top: 150px;
+    background: rgb(241, 241, 241);
+}
+
+footer .foot_container {
+    padding: 40px 0;
+}
+
+.footer_logo img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer_link {
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.footer_link a {
+    text-decoration: none;
+    margin-right: 70px;
+    padding-top: 20px;
+    color:  hsl(201, 11%, 66%);
+    text-align: center;
+}
+
+.footer_link a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+
+.social_link {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social_link a {
+    padding: 15px;
+    font-size: 40px;
+    color: #aab8c2;
+}
+
+.social_link a:first-child:hover {
+    color: #4267b2;
+}
+
+.social_link a:nth-child(2):hover {
+    color: #1da1f2;
+}
+
+.social_link a:last-child:hover {
+    color: #c13584;
+}
+
+.attribution p {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.attribution p a {
+    text-decoration: none;
+}
+
+.attribution p a:hover {
+    text-decoration: underline;
+}
+
+/* ============ Reusable Component ============ */
+
+/* Button Sizing */
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 60px;
+    border-bottom: 3px solid;
+    box-shadow: 0 0 5px 0;
+    letter-spacing: .5px;
+    text-align: center;
+} 
+
+.btn1 {
+    background: hsl(171, 66%, 44%);
+    border-bottom-color: hsl(171, 72%, 35%);
+    box-shadow: 0 3px 10px hsl(171, 66%, 44%);
+    float: right;
+}
+
+.btn1:hover {
+    background: hsl(171, 80%, 49%);
+    box-shadow: 0 3px 20px hsl(171, 66%, 44%);
+}
+
+.btn2 {
+    background: hsl(233, 100%, 69%);
+    border-bottom-color: hsl(233, 82%, 56%);
+    box-shadow: 0 3px 10px hsl(233, 89%, 52%);
+    float: left;
+}
+
+.btn2:hover {
+    background: hsl(233, 80%, 71%);
+    box-shadow: 0 3px 20px hsl(233, 89%, 52%);
+}
+
+/* Heading Sizing */
+
+.s_heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    color: hsl(210, 10%, 33%);
+}
+
+.s_paragraph {
+    text-align: center;
+    max-width: 690px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.7;
+    padding-top: 20px;
+}
+
+/* ============ Container ============ */
+
+.sub_section_2,
+.section_1,
+.container:before,
+.container:after {
+    content:"";
+    display:table;
+}
+.container:after {
+    clear:both;
+}
+
+/* =========== GRID COLUMN SETUP ============== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+/* all browsers except IE6 and lower */
+
+.col:first-child {
+    margin-left: 0; 
+} 
+
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
+
+.span_1_of_5 {
+  	width: 18.72%;
+}
+
+.span_2_of_4 {
+	width: 49.2%; 
+}
+
+.span_1_of_4 {
+	width: 23.8%; 
+}
+
+/* ======== Responsive Design ======== */
+
+@media only screen and (max-width: 1400px) {
+    .textbox {
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .textbox {
+        margin-top: 0;
+        margin-left: -20px;
+    }
+
+    .textbox h3 {
+        margin-top: 10px;
+    }
+
+    .sub_section img {
+        width: 100%;
+    }
+
+    .s_2_img {
+        width: 50%;
+    }
+
+    .img {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .btn1 {
+        float: none;
+    }
+
+    .btn2 {
+        float: none;
+    }
+
+    .sub_section img {
+        transform: translateX(0);
+        height: auto;
+        width: 80%;
+    }
+
+    .textbox {
+        display: block;
+        margin: 0 auto;
+        max-width: none;
+    }
+
+    .textbox h3 {
+        text-align: center;
+    }
+
+    .textbox p {
+        text-align: center;
+    }
+
+    .image_box {
+        padding-top: 30px;
+    }
+
+    .s_2_img {
+        width: 80%;
+        display: block;
+    }
+
+    .img {
+        padding-top: 50px;
+        width: 200px;
+    }
+
+    .section_4 {
+        padding-top: 700px;
+    }
+
+    .footer_link {
+        display: block;
+        text-align: center;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .footer_link a {
+        margin-right: 0;
+    }
+
+    .social_link {
+        text-align: center;
+    }
+
+    /* Grid Setup */
+
+    .col { 
+		margin: 1% 0 1% 0%;
+	}
+
+    .span_1_of_3 {
+		width: 100%;
+    }
+    
+    .span_2_of_4 {
+		width: 100%; 
+    }
+    
+	.span_1_of_4 {
+		width: 100%; 
+    }
+    
+    .span_1_of_5 {
+		width: 100%; 
+    }
+    
+    .span_1_of_2 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header {
+        background: url('./images/bg-header-mobile.png') center top no-repeat;
+    }
+}
